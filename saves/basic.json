@@ -212,39 +212,6 @@
       "customTile": "",
       "urlRandomToken": true
     },
-    "yl-app-home": {
-      "addressBar": false,
-      "autoRun": 0,
-      "background": false,
-      "badge": 0,
-      "desc": "YLUI官方网站",
-      "icon": {
-        "type": "fa",
-        "content": "yoast",
-        "bg": "#6b96cf"
-      },
-      "openMode": "normal",
-      "plugin": false,
-      "position": {
-        "autoOffset": true,
-        "left": true,
-        "top": true,
-        "x": "x*0.1",
-        "y": "y*0.1"
-      },
-      "version": "1.0.0",
-      "poweredBy": "Yuri2",
-      "resizable": true,
-      "single": true,
-      "size": {
-        "height": "y*0.8-80",
-        "width": "x*0.8"
-      },
-      "title": "YLUI 官网",
-      "url": "https://ylui.yuri2.cn",
-      "customTile": "",
-      "urlRandomToken": true
-    },
     "ylui-documents": {
       "addressBar": false,
       "autoRun": 0,
@@ -425,12 +392,6 @@
       "hash": ""
     },
     {
-      "app": "yl-app-home",
-      "title": "YLUI 官网",
-      "params": {},
-      "hash": ""
-    },
-    {
       "app": "ylui-documents",
       "title": "在线文档",
       "params": {},
@@ -487,17 +448,6 @@
           "hash": ""
         },
         {
-          "x": 0,
-          "y": 0,
-          "w": 6,
-          "h": 4,
-          "app": "yl-app-home",
-          "title": "YLUI 官网",
-          "i": "147",
-          "params": {},
-          "hash": ""
-        },
-        {
           "x": 2,
           "y": 6,
           "w": 4,
@@ -530,12 +480,6 @@
       "itemPushed-85": {
         "app": "yl-browser",
         "title": "浏览器",
-        "params": {},
-        "hash": ""
-      },
-      "itemPushed-89": {
-        "app": "yl-app-home",
-        "title": "YLUI 官网",
         "params": {},
         "hash": ""
       },
