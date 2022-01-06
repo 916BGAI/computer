@@ -212,39 +212,6 @@
       "customTile": "",
       "urlRandomToken": true
     },
-    "ylui-documents": {
-      "addressBar": false,
-      "autoRun": 0,
-      "background": false,
-      "badge": 0,
-      "desc": "YLUI官方在线文档",
-      "icon": {
-        "type": "fa",
-        "content": "book",
-        "bg": "#d9ab4a"
-      },
-      "openMode": "outer",
-      "plugin": false,
-      "position": {
-        "autoOffset": true,
-        "left": true,
-        "top": true,
-        "x": "x*0.05",
-        "y": "y*0.05"
-      },
-      "version": "1.0.0",
-      "poweredBy": "Yuri2",
-      "resizable": false,
-      "single": false,
-      "size": {
-        "height": "y*0.8-80",
-        "width": "x*0.8"
-      },
-      "title": "在线文档",
-      "url": "https://github.com:/yuri2peter/ylui/tree/master/documents",
-      "customTile": "",
-      "urlRandomToken": false
-    },
     "my-github": {
       "addressBar": false,
       "autoRun": 0,
@@ -256,7 +223,7 @@
         "content": "github",
         "bg": "#292929"
       },
-      "openMode": "normal",
+      "openMode": "outer",
       "plugin": false,
       "position": {
         "autoOffset": true,
@@ -359,12 +326,6 @@
       "hash": ""
     },
     {
-      "app": "ylui-documents",
-      "title": "在线文档",
-      "params": {},
-      "hash": ""
-    },
-    {
       "app": "my-github",
       "title": "github",
       "params": {},
@@ -407,17 +368,6 @@
           "i": "146",
           "params": {},
           "hash": ""
-        },
-        {
-          "x": 2,
-          "y": 6,
-          "w": 4,
-          "h": 2,
-          "app": "ylui-documents",
-          "title": "在线文档",
-          "i": "158",
-          "params": {},
-          "hash": ""
         }
       ]
     }
@@ -453,12 +403,6 @@
       "itemPushed-88": {
         "app": "yl-app-store",
         "title": "应用商店",
-        "params": {},
-        "hash": ""
-      },
-      "itemPushed-153": {
-        "app": "ylui-documents",
-        "title": "在线文档",
         "params": {},
         "hash": ""
       },
