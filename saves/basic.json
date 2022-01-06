@@ -154,8 +154,8 @@
       "desc": "浏览器",
       "icon": {
         "type": "fa",
-        "content": "internet-explorer",
-        "bg": "#3a55c2"
+        "content": "fab fa-chrome",
+        "bg": ""
       },
       "openMode": "normal",
       "plugin": false,
