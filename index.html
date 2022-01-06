@@ -436,12 +436,6 @@
                     name="custom-classes-transition-msg"
                     enter-active-class="animated bounceInRight"
                     leave-active-class="animated bounceOutRight">
-                <div v-for="(m,id) in center.msg" class="msg shadow-hover" :key="id">
-                    <div class="title">{{m.title}}
-                        <div class="btn-close" @click="msgClose(id)"><i class="fa fa-trash"></i></div>
-                    </div>
-                    <div class="content selectable" v-html="m.content"></div>
-                </div>
             </transition-group>
         </div>
     </div>
