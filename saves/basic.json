@@ -146,6 +146,72 @@
       "customTile": "",
       "urlRandomToken": true
     },
+	"my-computer": {
+	            "addressBar": false,
+	            "autoRun": 0,
+	            "background": false,
+	            "badge": 0,
+	            "desc": "",
+	            "icon": {
+	                "type": "fa",
+	                "content": "fas fa-desktop",
+	                "bg": ""
+	            },
+	            "openMode": "normal",
+	            "plugin": false,
+	            "position": {
+	                "autoOffset": true,
+	                "left": true,
+	                "top": true,
+	                "x": "x*0.05",
+	                "y": "y*0.05"
+	            },
+	            "version": "1.0.0",
+	            "poweredBy": "",
+	            "resizable": true,
+	            "single": false,
+	            "size": {
+	                "height": "y*0.8-80",
+	                "width": "x*0.8"
+	            },
+	            "title": "此电脑",
+	            "url": "https://kjlsai.xyz",
+	            "customTile": "",
+	            "urlRandomToken": true
+	        },
+	"app-189": {
+	            "addressBar": false,
+	            "autoRun": 0,
+	            "background": false,
+	            "badge": 0,
+	            "desc": "",
+	            "icon": {
+	                "type": "fa",
+	                "content": "fas fa-trash",
+	                "bg": ""
+	            },
+	            "openMode": "normal",
+	            "plugin": false,
+	            "position": {
+	                "autoOffset": true,
+	                "left": true,
+	                "top": true,
+	                "x": "x*0.05",
+	                "y": "y*0.05"
+	            },
+	            "version": "1.0.0",
+	            "poweredBy": "",
+	            "resizable": true,
+	            "single": false,
+	            "size": {
+	                "height": "y*0.8-80",
+	                "width": "x*0.8"
+	            },
+	            "title": "回收站",
+	            "url": "",
+	            "customTile": "",
+	            "urlRandomToken": true
+	        },
     "yl-browser": {
       "addressBar": true,
       "autoRun": 0,
@@ -313,6 +379,18 @@
     }
   },
   "shortcuts": [
+	{
+	  "app": "my-computer",
+	  "title": "此电脑",
+	  "params": {},
+	  "hash": ""
+	},
+	{
+	  "app": "app-189",
+	  "title": "回收站",
+	  "params": {},
+	  "hash": ""
+	},
     {
       "app": "yl-browser",
       "title": "浏览器",
