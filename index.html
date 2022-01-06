@@ -418,28 +418,24 @@
 
     <!--操作中心-->
     <div class="center shadow" :class="{open:center.open}" :style="centerStyle">
-                <div class="mask" :style="{background:configs.themeColor}"></div>
-                <div class="banner">{{YL.lang("NoticeCenter")}}
-                    <div class="clear" v-show="center.msgNum>0" @click="btnCenterClear">{{YL.lang("NoticeClearAll")}}</div>
-                </div>
-                <transition name="custom-classes-transition-msg" enter-active-class="animated slideInRight"
-                    leave-active-class="animated slideOutRight">
-                    <div style="animation-duration: 0.5s" class="banner no-msg" v-show="center.msgNum<=0">
-                        {{YL.lang("NoMoreNotice")}}
-                    </div>
-                </transition>
-                <div class="msgs">
-                    <transition-group name="custom-classes-transition-msg" enter-active-class="animated bounceInRight"
-                        leave-active-class="animated bounceOutRight">
-                        <div v-for="(m,id) in center.msg" class="msg shadow-hover" :key="id">
-                            <div class="title">{{m.title}}
-                                <div class="btn-close" @click="msgClose(id)"><i class="fa fa-trash"></i></div>
-                            </div>
-                            <div class="content selectable" v-html="m.content"></div>
-                        </div>
-                    </transition-group>
-                </div>
+        <div class="mask"
+             :style="{background:configs.themeColor}"></div>
+        <transition
+                name="custom-classes-transition-msg"
+                enter-active-class="animated slideInRight"
+                leave-active-class="animated slideOutRight">
+            <div style="animation-duration: 0.5s" class="banner no-msg" v-show="center.msgNum<=0">
+                {{YL.lang("NoMoreNotice")}}
             </div>
+        </transition>
+        <div class="msgs">
+            <transition-group
+                    name="custom-classes-transition-msg"
+                    enter-active-class="animated bounceInRight"
+                    leave-active-class="animated bounceOutRight">
+            </transition-group>
+        </div>
+    </div>
     <!--快捷方式配置-->
     <transition name="opacity">
         <div class="shader" v-if="shortSetting"
