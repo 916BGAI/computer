@@ -223,7 +223,7 @@
         "content": "github",
         "bg": "#292929"
       },
-      "openMode": "outer",
+      "openMode": "normal",
       "plugin": false,
       "position": {
         "autoOffset": true,
