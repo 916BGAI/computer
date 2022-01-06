@@ -212,72 +212,6 @@
       "customTile": "",
       "urlRandomToken": true
     },
-    "yl-app-home": {
-      "addressBar": false,
-      "autoRun": 0,
-      "background": false,
-      "badge": 0,
-      "desc": "YLUI官方网站",
-      "icon": {
-        "type": "fa",
-        "content": "yoast",
-        "bg": "#6b96cf"
-      },
-      "openMode": "normal",
-      "plugin": false,
-      "position": {
-        "autoOffset": true,
-        "left": true,
-        "top": true,
-        "x": "x*0.1",
-        "y": "y*0.1"
-      },
-      "version": "1.0.0",
-      "poweredBy": "Yuri2",
-      "resizable": true,
-      "single": true,
-      "size": {
-        "height": "y*0.8-80",
-        "width": "x*0.8"
-      },
-      "title": "YLUI 官网",
-      "url": "https://ylui.yuri2.cn",
-      "customTile": "",
-      "urlRandomToken": true
-    },
-    "ylui-documents": {
-      "addressBar": false,
-      "autoRun": 0,
-      "background": false,
-      "badge": 0,
-      "desc": "YLUI官方在线文档",
-      "icon": {
-        "type": "fa",
-        "content": "book",
-        "bg": "#d9ab4a"
-      },
-      "openMode": "outer",
-      "plugin": false,
-      "position": {
-        "autoOffset": true,
-        "left": true,
-        "top": true,
-        "x": "x*0.05",
-        "y": "y*0.05"
-      },
-      "version": "1.0.0",
-      "poweredBy": "Yuri2",
-      "resizable": false,
-      "single": false,
-      "size": {
-        "height": "y*0.8-80",
-        "width": "x*0.8"
-      },
-      "title": "在线文档",
-      "url": "https://github.com:/yuri2peter/ylui/tree/master/documents",
-      "customTile": "",
-      "urlRandomToken": false
-    },
     "ylui-gitee": {
       "addressBar": false,
       "autoRun": 0,
@@ -311,7 +245,7 @@
       "customTile": "",
       "urlRandomToken": true
     },
-    "ylui-github": {
+    "my-github": {
       "addressBar": false,
       "autoRun": 0,
       "background": false,
@@ -322,7 +256,7 @@
         "content": "github",
         "bg": "#292929"
       },
-      "openMode": "outer",
+      "openMode": "normal",
       "plugin": false,
       "position": {
         "autoOffset": true,
@@ -340,7 +274,7 @@
         "width": "x*0.8"
       },
       "title": "github",
-      "url": "https://github.com:/yuri2peter/ylui",
+      "url": "https://github.com/916BGAI",
       "customTile": "",
       "urlRandomToken": false
     },
@@ -425,19 +359,7 @@
       "hash": ""
     },
     {
-      "app": "yl-app-home",
-      "title": "YLUI 官网",
-      "params": {},
-      "hash": ""
-    },
-    {
-      "app": "ylui-documents",
-      "title": "在线文档",
-      "params": {},
-      "hash": ""
-    },
-    {
-      "app": "ylui-github",
+      "app": "my-github",
       "title": "github",
       "params": {},
       "hash": ""
@@ -486,28 +408,6 @@
           "params": {},
           "hash": ""
         },
-        {
-          "x": 0,
-          "y": 0,
-          "w": 6,
-          "h": 4,
-          "app": "yl-app-home",
-          "title": "YLUI 官网",
-          "i": "147",
-          "params": {},
-          "hash": ""
-        },
-        {
-          "x": 2,
-          "y": 6,
-          "w": 4,
-          "h": 2,
-          "app": "ylui-documents",
-          "title": "在线文档",
-          "i": "158",
-          "params": {},
-          "hash": ""
-        }
       ]
     }
   ],
@@ -533,12 +433,6 @@
         "params": {},
         "hash": ""
       },
-      "itemPushed-89": {
-        "app": "yl-app-home",
-        "title": "YLUI 官网",
-        "params": {},
-        "hash": ""
-      },
       "itemPushed-96": {
         "app": "yl-system",
         "title": "系统设置",
@@ -551,12 +445,6 @@
         "params": {},
         "hash": ""
       },
-      "itemPushed-153": {
-        "app": "ylui-documents",
-        "title": "在线文档",
-        "params": {},
-        "hash": ""
-      },
       "itemPushed-155": {
         "app": "ylui-gitee",
         "title": "码云仓库",
@@ -564,7 +452,7 @@
         "hash": ""
       },
       "itemPushed-157": {
-        "app": "ylui-github",
+        "app": "my-github",
         "title": "github",
         "params": {},
         "hash": ""
